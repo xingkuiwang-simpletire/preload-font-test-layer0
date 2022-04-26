@@ -1,0 +1,46 @@
+@font-face {
+  font-display: swap;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/static/fonts/CircularStd-Book.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Circular Std";
+  font-style: italic;
+  font-weight: normal;
+  src: url("/static/fonts/CircularStd-BookItalic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/static/fonts/CircularStd-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Circular Std";
+  font-style: italic;
+  font-weight: bold;
+  src: url("/static/fonts/CircularStd-BoldItalic.woff2") format("woff2");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
